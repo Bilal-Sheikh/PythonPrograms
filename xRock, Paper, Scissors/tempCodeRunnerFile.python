@@ -1,0 +1,7 @@
+import random
+
+def Random_Alpha():
+    l = ['Rock','Paper','Scissors']
+    return l[random.randint(0,2)]
+
+print(Random_Alpha())
